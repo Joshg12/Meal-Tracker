@@ -8,6 +8,23 @@
 import UIKit
 
 class FoodTableViewController2: UITableViewController {
+    
+    var meals: [Meal] = [
+        Meal(name: "breakfeast",
+             food: [Food(name: "eggs", description: "scrambled"),
+                    Food(name: "eggs", description: "scrambled"),
+                    Food(name: "eggs", description: "scrambled")]),
+        
+        Meal(name: "lunch",
+            food: [Food(name: "eggs", description: "scrambled"),
+                    Food(name: "eggs", description: "scrambled"),
+                    Food(name: "eggs", description: "scrambled")]),
+                    
+        Meal(name: "dinner",
+            food: [Food(name: "eggs", description: "scrambled"),
+                    Food(name: "eggs", description: "scrambled"),
+                    Food(name: "eggs", description: "scrambled"),])
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,10 +61,5 @@ class FoodTableViewController2: UITableViewController {
     }
     
     
-    var meals: [Meal] [
-        Meal(name: "breakfeast",
-             food: [Food(name: "eggs", description: "scrambled"),
-                    Food(name: "eggs", description: "scrambled"),
-                    Food,: [Food(name: "eggs", description: "scrambled")]),
-    ]
-}
+
+    }
